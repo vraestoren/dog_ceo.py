@@ -3,8 +3,9 @@ Web-API for [dog.ceo](https://dog.ceo) website that allows developers to access 
 
 ## Example
 ```python
-import dog_ceo
-dog_ceo = dog_ceo.DogCeo()
+from dog_ceo import DogCeo
+
+dog_ceo = DogCeo()
 random_image = dog_ceo.get_random_image()
 print(random_image)
 ```
